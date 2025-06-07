@@ -4,7 +4,7 @@ This Repo demonstrate demonstrates BFS in Unreal Engine. It uses both C++ and Bl
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. **Create the Tile Blueprint**
    - In `Content/Maze/`, create a new Blueprint class based on `MazeTile`, name it: `BP_MazeTile`.
@@ -22,7 +22,7 @@ This Repo demonstrate demonstrates BFS in Unreal Engine. It uses both C++ and Bl
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 - When you **Run** the project:
   - The bot starts traversing the maze.
@@ -33,13 +33,13 @@ This Repo demonstrate demonstrates BFS in Unreal Engine. It uses both C++ and Bl
 
 ---
 
-## 🔧 Customization
+## Customization
 
-### ✅ Change Maze Size
+### Change Maze Size
 - In the **Details** panel of `MazeManager`, update the maze dimensions.
 - The generator will adjust accordingly.
 
-### 🎯 Change Target/Destination
+### Change Target/Destination
 - Open `MazeManager.cpp`
 - Modify the 2D array `TargetLocation[][]`
   - Set the coordinates to any valid index within the maze bounds.
@@ -51,20 +51,20 @@ This Repo demonstrate demonstrates BFS in Unreal Engine. It uses both C++ and Bl
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 - **Unreal Engine**
 - **C++**
 - **Blueprints**
 
 ---
 
-## 📌 Notes
+## Notes
 - Make sure all required assets (like `MazeBot`, `BP_MazeTile`, etc.) are properly placed and referenced in the level.
 - Ideal for learning grid-based pathfinding with real-time feedback via color-coded tiles.
 
 ---
 
-## 👨‍💻 Author
+## Author
 *Shubham Anand*  
 
 
